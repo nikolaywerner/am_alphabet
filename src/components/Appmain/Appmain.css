@@ -1,0 +1,33 @@
+.App-main {
+    --app-main__gap: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding-left: var(--size__side-padding);
+    padding-right: var(--size__side-padding);
+}
+
+.App-main__root-elements {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.App-main__current-letter {
+    display: flex;
+    justify-content: center;
+}
+
+.App-main__variants {
+    display: flex;
+    justify-content: center;
+    gap: var(--app-main__gap);
+}
+
+.App-main__reload,
+.App-main__reset {
+    display: flex;
+    justify-content: center;
+}

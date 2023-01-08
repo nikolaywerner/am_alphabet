@@ -1,0 +1,9 @@
+.App-header {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    padding-top: var(--size__header-footer-v-pad);
+    padding-bottom: var(--size__header-footer-v-pad);
+    padding-left: var(--size__side-padding);
+    padding-right: var(--size__side-padding);
+}

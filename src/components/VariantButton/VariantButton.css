@@ -1,0 +1,35 @@
+.Variant-button {
+    display: block;
+    width: 56px;
+    height: 56px;
+    border-top: 0px solid var(--color__btn-body-default);
+    border-right: 0px solid var(--color__btn-body-default);
+    border-left: 0px solid var(--color__btn-body-default);
+    border-bottom: 3px solid var(--color__btn-brdr-default);
+    border-radius: var(--radius_medium);
+    background-color: var(--color__btn-body-default);
+    position: relative;
+}
+
+.Variant-button::before {
+    width: 100%;
+    height: 100%;
+    border-radius: calc(var(--radius_medium) - 1px) calc(var(--radius_medium) - 1px) calc(var(--radius_medium) + 2px) calc(var(--radius_medium) + 2px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color__btn-body-default);
+    content: '';
+}
+
+.Variant-button__pronunciation {
+    font: var(--heading);
+    position: relative;
+    z-index: 1;
+}
+
+.Variant-button__letter-name {
+    font: var(--text_small-it);
+    position: relative;
+    z-index: 1;
+}

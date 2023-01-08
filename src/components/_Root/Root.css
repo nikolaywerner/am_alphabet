@@ -1,0 +1,35 @@
+/* COLOR */
+
+:root {
+    --color__btn-body-default: rgba(245, 245, 245, 1);
+    --color__btn-brdr-default: rgba(186, 186, 186, 1);
+
+    --body-gradient: linear-gradient(180deg, #EFF0F8 0%, #F2F3FB 32.29%, #D4D6E3 100%);
+
+    --size__side-padding: 24px;
+    --size__header-footer-v-pad: 16px;
+
+    --radius_large: 32px;
+    --radius_medium: 16px;
+    --radius_small: 8px;
+
+    --base-font: 'IBM Plex Sans', sans-serif;
+
+    font-family: var(--base-font);
+
+    --heading: bold 24px/32px var(--base-font);
+    --subheading: normal 16px/24px var(--base-font);
+    --text: normal 16px/24px var(--base-font);
+    --text_small: normal 12px/16px var(--base-font);
+    --text_small-it: italic 12px/16px var(--base-font);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}

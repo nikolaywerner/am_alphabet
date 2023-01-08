@@ -1,0 +1,8 @@
+.Button-like-link {
+    padding: 0;
+    border: none;
+    border-bottom: 3px solid var(--color__btn-brdr-default);
+    font: var(--text);
+    line-height: 16px;
+    background: transparent;
+}

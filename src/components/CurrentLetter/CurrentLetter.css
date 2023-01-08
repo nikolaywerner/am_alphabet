@@ -1,0 +1,17 @@
+.Current-letter {
+    --current-letter__side: 144px;
+    --current-letter__font-size: 72px;
+    --current-letter__btm-pad: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--current-letter__side);
+    height: var(--current-letter__side);
+    padding-bottom: var(--current-letter__btm-pad);
+    border-radius: var(--radius_large);
+    font-family: 'Noto Sans Armenian', sans-serif;
+    font-size: var(--current-letter__font-size);
+    font-weight: bold;
+    background-image:linear-gradient(180deg, #ECC4FF 0%, #DC8EF8 100%);
+}

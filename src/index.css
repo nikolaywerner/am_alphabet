@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Noto+Sans+Armenian:wght@400;700&display=swap');
+
+@import "components/_Root/Root.css";
+
+@import "components/App/App.css";
+@import "components/Appheader/Appheader.css";
+@import "components/Appmain/Appmain.css";
+@import "components/Appfooter/Appfooter.css";
+@import "components/ButtonLikeLink/ButtonLikeLink.css";
+@import "components/CurrentLetter/CurrentLetter.css";
+@import "components/VariantButton/VariantButton.css";
